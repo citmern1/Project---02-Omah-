@@ -1,0 +1,6 @@
+320-575	->	Extra Small Device		->	none
+576-767	->	Small Device			->	col-sm
+768-991	->	Medium Device			->	col-md
+992-1199	->	Large Device			->	col-lg
+1200-1399	->	Extra Large Device		->	col-xl
+1400-1400++	->	Extra Extra Large Device	->	col-xxl

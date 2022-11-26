@@ -1,0 +1,349 @@
+@media(min-width:320px) and (max-width:575.98px){
+    nav ul li {
+        margin-left: 0;
+    }
+
+    nav ul li a::after {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    nav ul li a i {
+        transform: rotate(270deg);
+    }
+
+    nav ul li a:hover i {
+        transform: rotate(90deg);
+    }
+
+    nav ul li .dropdown {
+        top: -12px;
+        left: 120px;
+        transform: rotateX(90deg);
+        z-index: 5;
+    }
+
+    #banner-part h1 {
+        font-size: 33px;
+        line-height: 130%;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+
+    #banner-part p {
+        width: auto;
+    }
+
+    #banner-part .search {
+        width: auto;
+        margin-top: 27px;
+    }
+
+    #banner-part .search button {
+        position: relative;
+        top: 16px;
+        right: 0px;
+        transform: translateY(0);
+        width: 100%;
+    }
+
+    #banner-part .search input::placeholder {
+        font-size: 12px;
+    }
+
+    #banner-part .search input {
+        padding: 15px 0 15px 17px;
+    }
+
+    #banner-part .search i {
+        display: none;
+    }
+
+    #banner-part .box {
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    #banner-part .box .item h2 {
+        font-size: 35px;
+    }
+
+    #banner-part p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #banner-part img {
+        width: 100%;
+        margin-top: -180px;
+    }
+
+    #property-part h2 {
+        font-size: 27px;
+        width: auto;
+    }
+
+    #property-part {
+        margin: 50px 0;
+    }
+
+    #residen-part {
+        padding: 68px 0 68px 0;
+    }
+
+    #property-part .item {
+        margin-top: 50px;
+    }
+
+    #residen-part .img img{
+        width: 100%;
+    }
+
+    #residen-part .img .frontimg {
+        display: none;
+    }
+
+    #residen-part h3 {
+        font-size: 27px;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    #residen-part p {
+        margin-top: 15px;
+    }
+
+    #residen-part a {
+        padding: 8px;
+        margin-right: 0;
+        font-size: 14px;
+        margin-top: 24px;
+    }
+
+    #residen-part a i {
+        display: none;
+    }
+
+    #residen-part .explore {
+        padding-left: 13px;
+    }
+
+    #kota-part {
+        margin: 0;
+    }
+
+    #kota-part .title h2 {
+        margin-bottom: 0;
+    }
+
+    #kota-part .icons i {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    #kota-part .title p {
+        padding-top: 20px;
+    }
+    /* ======================================================== */
+}
+
+
+@media(min-width:576px) and (max-width:767.98px){
+    .container{
+        width: 100%;
+    }
+    nav ul li {
+        margin-left: 0;
+    }
+
+    nav ul li a::after {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    nav ul li a i {
+        transform: rotate(270deg);
+    }
+
+    nav ul li a:hover i {
+        transform: rotate(90deg);
+    }
+
+    nav ul li .dropdown {
+        top: -12px;
+        left: 120px;
+        transform: rotateX(90deg);
+        z-index: 5;
+    }
+
+    #property-part {
+        margin: 50px 0;
+    }
+
+    #banner-part .search {
+        width: auto;
+    }
+
+    #banner-part .box {
+        width: auto;
+    }
+
+    #banner-part .box .item {
+        width: 25%;
+        margin-right: 60px;
+    }
+
+    #banner-part img{
+        display: none;
+    }
+
+    #banner-part .search input {
+        padding: 23px 0 23px 37px;
+    }
+
+    #banner-part .search input::placeholder {
+        font-size: 14px;
+    }
+
+    #banner-part .search i {
+        left: 10px;
+    }
+
+    #property-part .item {
+        width: auto;
+        margin-top: 20px;
+    }
+
+    #residen-part .img .frontimg {
+        top: -60px;
+        left: 22px;
+    }
+
+    #residen-part h3 {
+        margin-top: 50px;
+    }
+
+    #residen-part a {
+        margin-right: 11px;
+    }
+    #residen-part {
+        background: #EEEDDE;
+        padding: 68px 0 68px 0;
+    }
+
+    #kota-part .icons i {
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    #kota-part {
+        margin: auto;
+        padding: 50px 0;
+    }
+
+    #kota-part p {
+        font-size: 14px;
+    }
+    /* ========================================================= */
+}
+
+
+@media(min-width:768px) and (max-width:991.98px){
+    .container{
+        width: 100%;
+    }
+    nav ul li {
+        margin-left: 0;
+    }
+
+    nav ul li a::after {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    nav ul li a i {
+        transform: rotate(270deg);
+    }
+
+    nav ul li a:hover i {
+        transform: rotate(90deg);
+    }
+
+    nav ul li .dropdown {
+        top: -12px;
+        left: 120px;
+        transform: rotateX(90deg);
+        z-index: 5;
+    }
+
+    #banner-part img{
+        display: none;
+    }
+
+    #property-part .item {
+        width: 100%;
+    }
+
+    #residen-part .img .frontimg {
+        top: -60px;
+    }
+    #residen-part h3 {
+        margin-top: 50px;
+    }
+
+    #kota-part .icons i {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    /* ============================================================= */
+}
+
+
+@media(min-width:992px) and (max-width:1199.98px){
+    #banner-part img{
+        width: 100%;
+    }
+
+    #residen-part .img .frontimg {
+        top: 40px;
+        left: 10px;
+    }
+
+    #residen-part h3 {
+        width: 100%;
+    }
+
+    #residen-part a i {
+        left: 20px;
+    }
+
+    #residen-part a {
+        margin-top: 48px;
+        padding: 13px 24px 13px 50px;
+        margin-right: 10px;
+    }
+    /* =================================================== */
+}
+
+
+@media(min-width:1200px) and (max-width:1399.98px){
+    #banner-part img{
+        width: 100%;
+    }
+
+    #residen-part .img .frontimg {
+        top: 50px;
+        left: 100px;
+    }
+
+    #residen-part a i {
+        left: 20px;
+    }
+
+    #residen-part a {
+        margin-top: 48px;
+        padding: 13px 24px 13px 50px;
+        margin-right: 30px;
+    }
+    /* =================================================== */
+}

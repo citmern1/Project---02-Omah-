@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ===================================================
+                Navbar Part Start
+=================================================== */
+
+nav{
+    background: #EEEDDE;
+}
+
+nav ul li{
+    margin-left: 100px;
+    position: relative;
+}
+
+nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239 !important;
+    transition: 0.4s;
+    position: relative;
+}
+
+nav ul li a i{
+    margin-left: 10px;
+    transition: 0.4s;
+}
+
+nav ul li a::after{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 23px;
+    height: 3px;
+    border-radius: 5px;
+    background: #F6762E;
+    content: "";
+    opacity: 0;
+}
+
+nav ul li .dropdown{
+    position: absolute;
+    top: 54px;
+    left: 0;
+    background: #EEEDDE;
+    transform: rotateX(90deg);
+    transform-origin: top;
+    transition: 0.4s;
+}
+
+
+nav ul li .dropdown ul li{
+    margin-left: 0;
+    border-bottom: 1px solid #F6762E;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    font-weight: 600;
+}
+
+nav ul li a:hover i{
+    transform: rotate(177deg);
+}
+
+nav ul li a:hover:after{
+    opacity: 1;
+}
+
+
+nav ul li:hover .dropdown{
+    transform: rotateX(0deg);
+}
+/* ===================================================
+                Navbar Part End
+=================================================== */
+/* ===================================================
+                Banner Part Start
+=================================================== */
+#banner-part{
+    background: #EEEDDE;
+    padding-bottom: 60px;
+}
+
+#banner-part h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+
+#banner-part p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 544px;
+    color: #2032398C;
+}
+
+#banner-part .search{
+    width: 675px;
+    position: relative;
+    margin-top: 56px;
+}
+
+#banner-part .search input{
+    width: 100%;
+    padding: 23px 0 23px 56px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+}
+
+#banner-part .search input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, 0.55);
+}
+
+#banner-part .search i{
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+#banner-part .search button{
+    background: #203239;
+    color: #FFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 41px;
+    border-radius: 10px;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    -webkit-box-shadow: 0px 6px 13px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 6px 13px 5px rgba(0,0,0,0.1);
+    box-shadow: 0px 6px 13px 5px rgba(0,0,0,0.1);
+}
+
+#banner-part .box{
+    display: flex;
+    width: 640px;
+    margin-top: 56px;
+}
+
+#banner-part .box .item{
+    width: 30%;
+    margin-right: 52px;
+}
+
+#banner-part .box .item h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+#banner-part .box .item h2 span{
+    color: #F6762E;
+}
+
+#banner-part .box .item p{
+    width: auto;
+}
+/* ===================================================
+                Banner Part End
+=================================================== */
+/* ===================================================
+                Property Part Start
+=================================================== */
+
+#property-part{
+    margin: 100px 0;
+}
+
+#property-part h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    width: 533px;
+    line-height: 150%;
+}
+
+#property-part .item{
+    width: 300px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 60px;
+    transition: 0.4s;
+}
+
+#property-part .item h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+#property-part .item h4::after{
+    width: 8px;
+    height: 30px;
+    background: #F6762E;
+    border-radius: 5px;
+    position: absolute;
+    top: -5px;
+    left: -31px;
+    content: '';
+}
+
+#property-part .item h4 span{
+    color: #F6762E;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#property-part .item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, 0.55);
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+#property-part .item a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+    color: #203239;
+    padding-left: 6px;
+    position: relative;
+}
+
+#property-part .item a::after{
+    width: 40px;
+    height: 30px;
+    background: #D6D5C7;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    content: '';
+    z-index: -1;
+    transition: 0.4s;
+}
+
+#property-part .item:hover a:after{
+    width: 103%;
+}
+
+#property-part .item a i{
+    margin-left: 14px;
+}
+
+#property-part .item:hover{
+    border-color: #EEEDDE;
+}
+/* ===================================================
+                Property Part End
+=================================================== */
+/* ===================================================
+                Residen Part Start
+=================================================== */
+
+#residen-part{
+    background: #EEEDDE;
+    padding: 68px 0 161px 0;
+}
+
+#residen-part .title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F6762E;
+}
+
+#residen-part .title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+#residen-part .img{
+    position: relative;
+}
+
+#residen-part .img .frontimg{
+    position: absolute;
+    top: 60px;
+    left: 167px;
+
+}
+
+#residen-part h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    width: 507px;
+    line-height: 150%;
+}
+
+#residen-part p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+#residen-part a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 48px;
+    padding: 13px 41px 13px 77px;
+    border: 1px solid #203239;
+    color: #203239;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.4s;
+    margin-right: 48px;
+}
+
+#residen-part .explore{
+    padding-left: 41px;
+}
+
+#residen-part a i{
+    position: absolute;
+    top: 50%;
+    left: 42px;
+    transform: translateY(-50%);
+}
+
+#residen-part a:hover{
+    color: #FFFF;
+    background: #203239;
+}
+/* ===================================================
+                Residen Part End
+=================================================== */
+/* ===================================================
+                Kota Part Start
+=================================================== */
+
+#kota-part{
+    margin: 68px;
+}
+
+#kota-part .title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F6762E;
+}
+
+#kota-part .title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+#kota-part .icons i{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #D6D5C7;
+    border-radius: 5px;
+    color: #F6762E;
+    font-size: 13px;
+    margin-right: 24px;
+    margin-top: 37px;
+    cursor: pointer;
+}
+
+#kota-part .icons i:hover{
+    background: #D6d5c7;
+    opacity: 0.3;
+}
+
+#kota-part img{
+    width: 100%;
+}
+
+#kota-part h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+#kota-part p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* ===================================================
+                Kota Part End
+=================================================== */
+/* ===================================================
+                Navbar Part Start
+=================================================== */
+/* ===================================================
+                Navbar Part End
+=================================================== */
+/* ===================================================
+                Navbar Part Start
+=================================================== */
+/* ===================================================
+                Navbar Part End
+=================================================== */
